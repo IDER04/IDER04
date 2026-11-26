@@ -12,7 +12,7 @@ My interests are **private equity, investment analysis, asset management, corpor
 
 ## Featured Projects
 
-### [GeoCapital](https://github.com/IDER04/GeoCapp)
+### [GeoCapp](https://github.com/IDER04/GeoCapp)
 **Country risk and investment analysis platform** · Python, Streamlit, Plotly, pandas
 
 An application that links a country's history and financial indicators to a readable investment decision. Each country gets a 0–100 score built from five transparent components and a four-level verdict. Required return is computed as cost of equity with a country risk premium, following Damodaran's approach.
@@ -27,7 +27,7 @@ An application that links a country's history and financial indicators to a read
 ### [Credit Risk Agent](https://github.com/IDER04/Credit-risk-agent)
 **AI agent for banking credit-risk analysis** · Python, MySQL, LLM tool calling, Streamlit
 
-An LLM agent that answers questions about a bank's loan portfolio, scores client risk and monitors portfolio exposure. The model never decides risk: scores come from deterministic rules in Python, and the agent only queries MySQL through 13 defined tools and explains the results.
+An LLM agent that answers questions about a bank's loan portfolio, scores client risk and monitors portfolio exposure. The model never decides risk: scores come from deterministic rules in Python, and the agent only queries MySQL through a set of defined tools and explains the results.
 
 - Portfolio summary, client comparison and highest-risk ranking
 - Controlled database operations: every write is staged as a pending change and executes only after human confirmation
